@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3dModelFiles", "3dModelFiles\3dModelFiles.csproj", "{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test3dModelFiles", "Test3dModelFiles\Test3dModelFiles.csproj", "{257268C3-305B-466E-9939-E63B14C77FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CF5D95-1A07-4DE8-876F-CC3EF523AEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257268C3-305B-466E-9939-E63B14C77FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257268C3-305B-466E-9939-E63B14C77FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257268C3-305B-466E-9939-E63B14C77FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257268C3-305B-466E-9939-E63B14C77FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {877353A9-EB89-4064-B6F0-0F7B48A94F0C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" unit="millimeter" xml:lang="en-US" xmlns:m="http://schemas.microsoft.com/3dmanufacturing/material/2015/02">
+ <resources>
+  <basematerials id="1">
+<base name="Material" displaycolor="#2F4F4F" />
+  </basematerials>
+  <object id="2" type="model">
+   <mesh>
+    <vertices>
+
+<vertex x="0" y="-100" z="0" />
+					
+<vertex x="-70.71" y="-100" z="-70.71" />
+					
+<vertex x="70.71" y="-100" z="-70.71" />
+					
+<vertex x="0" y="100" z="0" />
+					
+<vertex x="-70.71" y="-100" z="70.71" />
+					
+<vertex x="70.71" y="-100" z="70.71" />
+    </vertices>
+    <triangles>
+     <triangle v1="0" v2="1" v3="2" pid="1" p1="0" />
+					
+<triangle v1="1" v2="3" v3="2" pid="1" p1="0" />
+					
+<triangle v1="0" v2="4" v3="1" pid="1" p1="0" />
+					
+<triangle v1="4" v2="3" v3="1" pid="1" p1="0" />
+					
+<triangle v1="0" v2="5" v3="4" pid="1" p1="0" />
+					
+<triangle v1="5" v2="3" v3="4" pid="1" p1="0" />
+					
+<triangle v1="0" v2="2" v3="5" pid="1" p1="0" />
+					
+<triangle v1="2" v2="3" v3="5" pid="1" p1="0" />
+    </triangles>
+   </mesh>
+  </object>
+ </resources>
+ <build>
+		<item objectid="2" transform="0.000708223 -5.96046E-11 0.000705989 0 -5.96046E-11 -0.001 -4.47035E-11 0 0.000705989 1.49012E-11 -0.000708223 0 -0.0667517 -0.19997 -0.0756266 1" />
+ </build>
+</model>

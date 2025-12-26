@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>ThreeDModelFiles</RootNamespace>
+		<ImplicitUsings>false</ImplicitUsings>
+		<Nullable>annotations</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Title>ThreeDModelFiles</Title>
+		<Product>ThreeDModelFiles</Product>
+		<AssemblyName>ThreeDModelFiles</AssemblyName>
+		<AssemblyTitle>ThreeDModelFiles</AssemblyTitle>
+		<PackageId>ThreeDModelFiles</PackageId>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Adam White</Authors>
+		<Copyright>Adam White. MIT License. See License.</Copyright>
+		<Description>Library for loading and saving common 3D model file formats including STL ASCII, STL Binary and 3MF.</Description>
+		<PackageTags>3D 3dModel STL 3MF mesh triangulation CAD file save serialization export WPF Geometry3D geometry triangle vertex ASCII binary csharp</PackageTags>
+		<PackageProjectUrl>https://www.nuget.org/packages/3dModelFiles/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/AdamWhiteHat/3dModelFiles</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<MajorVersion Condition=" '$(MajorVersion)' == '' ">1</MajorVersion>
+		<MinorVersion Condition=" '$(MinorVersion)' == '' ">0</MinorVersion>
+		<PatchVersion Condition=" '$(PatchVersion)' == '' ">0</PatchVersion>
+
+		<BuildTimestamp>$([System.DateTime]::Now.DayOfYear.ToString().PadLeft(3,'0'))</BuildTimestamp>
+
+		<Version>$(MajorVersion).$(MinorVersion).$(PatchVersion)</Version>
+		<AssemblyVersion>$(Version).$(BuildTimestamp)</AssemblyVersion>
+		<PackageVersion>$(AssemblyVersion)</PackageVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Ascii.cs" />
+		<Compile Remove="Binary.cs" />
+		<Compile Include="Ascii.cs">
+			<DependentUpon>STLFile.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Binary.cs">
+			<DependentUpon>STLFile.cs</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" unit="millimeter" xml:lang="en-US" xmlns:m="http://schemas.microsoft.com/3dmanufacturing/material/2015/02">
+	<resources>
+		<basematerials id="1">
+			<base name="Material" displaycolor="#3F48CCFF" />
+		</basematerials>
+		<m:texture2d id="2" path="/3D/Textures/747.png" contenttype="image/png" />
+		<m:texture2d id="5" path="/3D/Textures/757.png" contenttype="image/png" />
+		<m:texture2dgroup id="8" texid="2">
+			<m:tex2coord u="0.254811" v="0.346384" />
+			<m:tex2coord u="0.470014" v="0.139387" />
+			<m:tex2coord u="0.000113577" v="0.000146866" />
+			<m:tex2coord u="0.49269" v="0.365164" />
+			<m:tex2coord u="0.629882" v="0.751982" />
+			<m:tex2coord u="0.341395" v="0.994097" />
+			<m:tex2coord u="0.723618" v="0.999835" />
+			<m:tex2coord u="0.402116" v="0.616684" />
+			<m:tex2coord u="0.222461" v="0.671261" />
+			<m:tex2coord u="0.667834" v="0.526823" />
+			<m:tex2coord u="0.863118" v="0.55632" />
+			<m:tex2coord u="0.863545" v="0.0213158" />
+		</m:texture2dgroup>
+		<m:texture2dgroup id="9" texid="5">
+			<m:tex2coord u="0.168057" v="0.831943" />
+			<m:tex2coord u="0.336096" v="0.663904" />
+			<m:tex2coord u="1.79112e-05" v="0.663904" />
+			<m:tex2coord u="1.74642e-05" v="1.71661e-05" />
+			<m:tex2coord u="0.330765" v="0.330727" />
+			<m:tex2coord u="0.661416" v="1.74046e-05" />
+			<m:tex2coord u="0.336096" v="0.999982" />
+			<m:tex2coord u="1.71959e-05" v="0.661415" />
+			<m:tex2coord u="1.78814e-05" v="0.999982" />
+			<m:tex2coord u="0.661415" v="0.661416" />
+		</m:texture2dgroup>
+		<object id="3" type="model">
+			<mesh>
+				<vertices>
+					<vertex x="100.000" y="100.000" z="-100.000" />
+					<vertex x="-100.000" y="-100.000" z="-100.000" />
+					<vertex x="-100.000" y="100.000" z="-100.000" />
+					<vertex x="100.000" y="-100.000" z="-100.000" />
+					<vertex x="-100.000" y="100.000" z="100.000" />
+					<vertex x="100.000" y="-100.000" z="100.000" />
+					<vertex x="100.000" y="100.000" z="100.000" />
+					<vertex x="-100.000" y="-100.000" z="100.000" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" pid="8" p1="0" p2="1" p3="2" />
+					<triangle v1="0" v2="3" v3="1" pid="8" p1="0" p2="3" p3="1" />
+					<triangle v1="4" v2="5" v3="6" pid="8" p1="4" p2="5" p3="6" />
+					<triangle v1="4" v2="7" v3="5" pid="8" p1="4" p2="7" p3="5" />
+					<triangle v1="6" v2="3" v3="0" pid="8" p1="8" p2="3" p3="0" />
+					<triangle v1="6" v2="5" v3="3" pid="8" p1="8" p2="9" p3="3" />
+					<triangle v1="2" v2="7" v3="4" pid="8" p1="10" p2="7" p3="4" />
+					<triangle v1="2" v2="1" v3="7" pid="8" p1="2" p2="1" p3="11" />
+					<triangle v1="2" v2="6" v3="0" pid="8" p1="2" p2="8" p3="0" />
+					<triangle v1="2" v2="4" v3="6" pid="8" p1="10" p2="4" p3="6" />
+					<triangle v1="7" v2="3" v3="5" pid="8" p1="11" p2="3" p3="9" />
+					<triangle v1="7" v2="1" v3="3" pid="8" p1="11" p2="1" p3="3" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="4" type="model">
+			<mesh>
+				<vertices>
+					<vertex x="-68.591" y="-65.487" z="65.487" />
+					<vertex x="-62.509" y="-68.205" z="68.205" />
+					<vertex x="-65.339" y="-62.381" z="71.293" />
+					<vertex x="-71.439" y="-59.680" z="68.205" />
+					<vertex x="-55.662" y="-70.857" z="70.857" />
+					<vertex x="-21.966" y="-83.890" z="-73.404" />
+					<vertex x="-32.268" y="-82.153" z="-71.884" />
+					<vertex x="-41.840" y="-79.893" z="-69.907" />
+					<vertex x="-50.566" y="-77.244" z="-67.589" />
+					<vertex x="-58.397" y="-74.338" z="-65.046" />
+					<vertex x="-65.339" y="-71.293" z="-62.381" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" pid="1" p1="0" />
+					<triangle v1="0" v2="2" v3="3" pid="1" p1="0" />
+					<triangle v1="1" v2="4" v3="5" pid="1" p1="0" />
+					<triangle v1="1" v2="5" v3="2" pid="1" p1="0" />				
+					<triangle v1="1536" v2="589" v3="587" pid="1" p1="0" />
+					<triangle v1="1537" v2="833" v3="591" pid="1" p1="0" />
+					<triangle v1="1537" v2="591" v3="589" pid="1" p1="0" />
+				</triangles>
+			</mesh>
+		</object>
+		<object id="6" type="model">
+			<mesh>
+				<vertices>
+					<vertex x="0" y="-100.000" z="0" />
+					<vertex x="-70.710" y="-100.000" z="-70.710" />
+					<vertex x="70.710" y="-100.000" z="-70.710" />
+					<vertex x="0" y="100.000" z="0" />
+					<vertex x="-70.710" y="-100.000" z="70.710" />
+					<vertex x="70.710" y="-100.000" z="70.710" />
+				</vertices>
+				<triangles>
+					<triangle v1="0" v2="1" v3="2" pid="9" p1="0" p2="1" p3="2" />
+					<triangle v1="1" v2="3" v3="2" pid="9" p1="3" p2="4" p3="5" />
+					<triangle v1="0" v2="4" v3="1" pid="9" p1="0" p2="6" p3="1" />
+					<triangle v1="4" v2="3" v3="1" pid="9" p1="7" p2="4" p3="3" />
+					<triangle v1="0" v2="5" v3="4" pid="9" p1="0" p2="8" p3="6" />
+					<triangle v1="5" v2="3" v3="4" pid="9" p1="9" p2="4" p3="7" />
+					<triangle v1="0" v2="2" v3="5" pid="9" p1="0" p2="2" p3="8" />
+					<triangle v1="2" v2="3" v3="5" pid="9" p1="5" p2="4" p3="9" />
+				</triangles>
+			</mesh>
+		</object>
+	</resources>
+	<build>
+		<item objectid="3" transform="-1.14007e-05 0.00064442 -0.000764587 -0.000703537 0.000538191 0.000464096 0.000710566 0.000543206 0.000447238 -0.544689 -0.199969 0.0635642" />
+		<item objectid="4" transform="0.001 0 0 0 0 0.001 0 -0.001 0 -0.0806223 -0.19997 0.0645034" />
+		<item objectid="6" transform="-0.000716002 0 0.000698099 -5.96046e-11 -0.001 -2.38419e-10 0.000698099 1.19209e-10 0.000716001 0.341133 -0.19997 0.0811481" />
+	</build>
+</model>
