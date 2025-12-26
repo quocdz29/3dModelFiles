@@ -17,8 +17,8 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Authors>Adam White</Authors>
 		<Copyright>Adam White. MIT License. See License.</Copyright>
-		<Description>Library for loading and saving common 3D model file formats including STL ASCII, STL Binary and 3MF.</Description>
-		<PackageTags>3D 3dModel STL 3MF mesh triangulation CAD file save serialization export WPF Geometry3D geometry triangle vertex ASCII binary csharp</PackageTags>
+		<Description>A simple library that parses 3MF and STL (both ASCII and Binary) 3D model files and outputs a MeshGeometry3D, GeometryModel3D, XAML markup code or a collection of Triangle3D.</Description>
+		<PackageTags>xaml wpf stl utility-library stl-files 3d-models 3mf 3d-mesh file-parsing geometry-3d 3d-mesh-models 3mf-files wpf-3d deserialization export WPF ASCII binary csharp</PackageTags>
 		<PackageProjectUrl>https://www.nuget.org/packages/3dModelFiles/</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/AdamWhiteHat/3dModelFiles</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -36,6 +36,13 @@
 		<AssemblyVersion>$(Version).$(BuildTimestamp)</AssemblyVersion>
 		<PackageVersion>$(AssemblyVersion)</PackageVersion>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<Compile Remove="Ascii.cs" />
